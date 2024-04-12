@@ -36,11 +36,25 @@ To set up and run this application, follow these steps:
 * Environment Configuration: Create a copy of the .env.example file and rename it to .env. Update the configuration values such as database connection details.
 
 * Database Migration: Run the database migrations to set up the required tables in the database.
-  ```
+ 
  php artisan migrate
  ```
 * Serve Application: Serve the application locally using the php artisan serve command.
-  ```
+
   php artisan serve
  ```
-* Access Application: Access the application in your web browser at ##http://localhost:8000.
+* Access Application: Access the application in your web browser at [http://localhost:8000].
+
+## Usage
+
+- **Register/Login:** Users need to register or login to manage their posts. This application uses Laravel's built-in authentication system.
+  
+- **Post Management:** Once logged in, users can perform CRUD operations on posts using the provided interface.
+  
+- **Create Post:** Users can create new posts.
+  
+- **Post Listing:** Users are able to view a list of all posts.
+  
+- **Edit and Delete Posts:** Users can edit and delete their own posts from the post listing page.
+
+
