@@ -30,7 +30,7 @@
                             </div>
                         </div>
                     </form>   
-                    <form method="POST" action="{{ route('posts.update',['post'=>$post]) }}">
+                    {{-- <form method="POST" action="{{ route('posts.update',['post'=>$post]) }}">
                         @csrf
                   
                         <div class="flex col-span-6 justify-end">
@@ -39,7 +39,7 @@
                             </button>
                         </div>
                         @method('DELETE')
-                    </form>
+                    </form> --}}
                 </div>
             </div>
         </div>
