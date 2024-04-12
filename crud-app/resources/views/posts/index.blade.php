@@ -13,10 +13,16 @@
                 <x-nav-link :href="route('posts.create')">
                       Create Posts
                     </x-nav-link>
-                    @foreach ($posts as $post)
-                    <p><a href="{{ route('posts.show',['post'=>$post]) }}">{{$post->id}}</a> {{$post->title}}--{{ $post->content }}  <a href="{{ route('posts.edit',['post'=>$post]) }}">Edit</a></p>
-                    <img src="{{ asset('storage/uploads' . $post->image) }}" style="height: 40%; width: 50%;" alt="image Cover">
-                     @endforeach
+                        @foreach ($posts as $post)
+                            <p>
+                                <a href="{{ route('posts.show', ['post' => $post]) }}">
+                                    {{ $post->id }}
+                                </a>
+                                {{ $post->title }} -- {{ $post->content }}
+                                <a href="{{ route('posts.edit', ['post' => $post]) }}">Edit</a>
+                            </p>
+                            <img src="{{ asset('/storage/' . $post->image) }}" style="height: 20%; width: 20%; margin-top: 10px; margin-bottom: 20px; margin-left: 5px; margin-right: 15px;" alt="image Cover">
+                        @endforeach
                 </div>
             </div>
         </div>
