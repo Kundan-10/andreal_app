@@ -18,3 +18,18 @@ The Image Crud Application is a simple yet powerful solution for organizing imag
 - **PUT /posts/id:** Update an image/post.
 - **DELETE /posts/id:** Delete an image/post.
 
+## Setup
+
+To set up and run this application, follow these steps:
+
+1. **Clone Repository:** Clone this repository to your local machine.
+
+   ```bash
+   git clone <repository_url>
+
+   **1.Install Dependencies:** Navigate into the project directory and install the necessary dependencies using Composer.
+   ```
+     cd todo
+     composer install
+   ```
+
