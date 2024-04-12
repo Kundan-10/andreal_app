@@ -28,8 +28,8 @@ To set up and run this application, follow these steps:
    git clone <repository_url>
 
    **1.Install Dependencies:** Navigate into the project directory and install the necessary dependencies using Composer.
-   ```bash
-     cd todo
+   ```
+     cd appname
      composer install
-   ```bash
+   ```
 
