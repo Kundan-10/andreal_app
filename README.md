@@ -36,7 +36,8 @@ To set up and run this application, follow these steps:
 * Environment Configuration: Create a copy of the .env.example file and rename it to .env. Update the configuration values such as database connection details.
 
 * Database Migration: Run the database migrations to set up the required tables in the database.
- 
+
+ ```
  php artisan migrate
  ```
 * Serve Application: Serve the application locally using the php artisan serve command.
