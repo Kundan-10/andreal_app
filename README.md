@@ -1,6 +1,6 @@
 # Image Crud Application
 
-The Image Crud Application is a simple yet powerful solution for organizing tasks efficiently. With features such as task creation, editing, deletion, and detailed viewing, users can manage their tasks seamlessly. Built with Laravel, it offers a user-friendly interface for effective task management.
+The Image Crud Application is a simple yet powerful solution for organizing images efficiently. With features such as task creation, editing, deletion, and detailed viewing, users can manage their images with title and description  seamlessly. Built with Laravel, it offers a user-friendly interface for effective Images management.
 
 ## Features
 
