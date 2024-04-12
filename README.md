@@ -1,14 +1,14 @@
-# Image Crud Application
+## Post CRUD Application
 
-*The Image Crud Application is a simple yet powerful solution for organizing images efficiently. With features such as task creation, editing, deletion, and detailed viewing, users can manage their images with title and description  seamlessly. Built with Laravel, it offers a user-friendly interface for effective Images management.
+*The Post CRUD Application is a simple yet powerful solution for organizing posts efficiently. With features such as post creation, editing, deletion, and detailed viewing, users can manage their posts with titles and descriptions seamlessly. Built with Laravel, it offers a user-friendly interface for effective post management.
 
 ## Features
 
-- **Images Listing:** Users can view a list of all details of images.
-- **Create image:** Users can add new image with a title and description.
-- **View imgage:** Users can view details of a specific images.
-- **Edit images:** Users can edit the content and description of a image.
-- **Delete imgae:** Users can delete a image with content and description.
+- **Posts Listing:** Users can view a list of all details of images.
+- **Create Post:** Users can add new image with a title and description.
+- **View Posts:** Users can view details of a specific images.
+- **Edit Post:** Users can edit the content and description of a image.
+- **Delete Post:** Users can delete a image with content and description.
 
 ## Endpoints
 
@@ -42,6 +42,7 @@ To set up and run this application, follow these steps:
  ```
 * Serve Application: Serve the application locally using the php artisan serve command.
 
+```
   php artisan serve
  ```
 * Access Application: Access the application in your web browser at [http://localhost:8000].
