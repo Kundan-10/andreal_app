@@ -10,5 +10,11 @@ The Image Crud Application is a simple yet powerful solution for organizing imag
 - **Edit images:** Users can edit the content and description of a image.
 - **Delete imgae:** Users can delete a image with content and description.
 
-## Setup
+## Endpoints
+
+- **GET /posts:** Retrieve a list of all images/posts.
+- **POST /posts:** Upload a new image/post.
+- **GET /posts/id:** Retrieve details of a specific image/post.
+- **PUT /posts/id:** Update an image/post.
+- **DELETE /posts/id:** Delete an image/post.
 
